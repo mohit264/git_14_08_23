@@ -1,0 +1,500 @@
+   83  git difftool ea2843112aacc42a388669c3ae09e2311fae776f 2d3a4755c605e6e90b6906e01232e6643c884c32
+   84  cmd.exe /C build.bat
+   85  cd /d
+   86  cd D:\Git_22_07_23
+   87  git
+   88  clear
+   89  clear
+   90  git hash-object
+   91  git hash-object "Hello World"
+   92  echo "Hello World"
+   93  echo "Hello World" | git hash-object
+   94  echo "Hello World" | git hash-object -p
+   95  clear
+   96  echo "Hello World" | git hash-object --stdin
+   97  echo "Hello World" | git hash-object
+   98  echo "Hello World"
+   99  echo "Hello World" | git hash-object --stdin -w
+  100  git init
+  101  git branch
+  102  echo "Hello World" | git hash-object --stdin -w
+  103  git cat-file 557db03de997c86a4a028e1ebd3a1ceb225be238 -t
+  104  git cat-file 557db03de997c86a4a028e1ebd3a1ceb225be238 -p
+  105  touch greeting.txt
+  106  clear
+  107  clear
+  108  vim greeting.txt 
+  109  cat greeting.txt 
+  110  git status
+  111  git add greeting.txt 
+  112  git status
+  113  clear
+  114  git status
+  115  git commit -m "Added Greeting File"
+  116  git status
+  117  git branch
+  118  clear
+  119  git status
+  120  git status
+  121  git log
+  122  clear
+  123  git cat-file 94e5e81e130f8f8a04e175c35b93a5f481698e97
+  124  git cat-file 94e5e81e130f8f8a04e175c35b93a5f481698e97 -t
+  125  clear
+  126  git cat-file 94e5e81e130f8f8a04e175c35b93a5f481698e97 -p
+  127  git log
+  128  clear
+  129  git cat-file 94e5e81e130f8f8a04e175c35b93a5f481698e97 -t
+  130  git cat-file 94e5e81e130f8f8a04e175c35b93a5f481698e97 -p
+  131  git cat-file 648fc86e8557bdabbc2c828a19535f833727fa62 -t
+  132  clear
+  133  git cat-file 648fc86e8557bdabbc2c828a19535f833727fa62 -p
+  134  git cat-file 557db03de997c86a4a028e1ebd3a1ceb225be -t
+  135  git cat-file 557db03de997c86a4a028e1ebd3a1ceb225be -p
+  136  git log
+  137  clear
+  138  git reset --hard
+  139  ls
+  140  git log
+  141  git tag
+  142  clear
+  143  git tag -a greeting -m "My First Git Commit"
+  144  git status
+  145  git log
+  146  git cat-file dfd7e33f8cfa70bf7ef6b10c73da21d7ac8c04c0 -t
+  147  git cat-file dfd7e33f8cfa70bf7ef6b10c73da21d7ac8c04c0 -p
+  148  dir
+  149  cls
+  150  clear
+  151  ls
+  152  git staus
+  153  git status
+  154  git add ,
+  155  clear
+  156  git add .
+  157  git status 
+  158  git commit -m "Added Git Onion Diagram"
+  159  git log
+  160  clear
+  161  git cat-file c8cf262b6b2783590d6b308f188ae059a55b013c -p
+  162  git log
+  163  clear
+  164  git cat-file 94e5e81e130f8f8a04e175c35b93a5f481698e97 -p
+  165  git cat-file 648fc86e8557bdabbc2c828a19535f833727fa62 -p
+  166  clear
+  167  git log
+  168  clear
+  169  git log
+  170  clear
+  171  git log
+  172  clear
+  173  git cat-file c8cf262b6b2783590d6b308f188ae059a55b013c -p
+  174  git cat-file 
+  175  git cat-file 171b283ee91 -p
+  176  clear
+  177  git add .
+  178  git status 
+  179  git coomit -m "Added Object Model Diagram"
+  180  git commit -m "Added Object Model Diagram"
+  181  clear
+  182  ls
+  183  git log 
+  184  clear
+  185  git branch
+  186  git branch -b feature/new-greetings
+  187  git branch feature/new-greetings
+  188  git branch
+  189  clear
+  190  git branch
+  191  git switch feature/new-greetings 
+  192  git log
+  193  git status
+  194  clear
+  195  touch new-greeting.txt
+  196  vim new-greeting.txt 
+  197  git status
+  198  git add .
+  199  git status
+  200  clear
+  201  git commit -m "Added new-file'
+  202  "
+  203  git status
+  204  clear
+  205  git log
+  206  clear
+  207  git branch
+  208  clear
+  209  git switch master
+  210  clear
+  211  git log
+  212  clear
+  213  git branch
+  214  clear
+  215  git log
+  216  clear
+  217  git status
+  218  clear
+  219  git log
+  220  clear
+  221  git checkout c8cf262b6b2783590
+  222  clear
+  223  git status
+  224  touch detached-head.txt
+  225  ls
+  226  git status
+  227  clear
+  228  vim detached-head.txt 
+  229  cat detached-head.txt \
+  230  cat detached-head.txt 
+  231  clear
+  232  git add .
+  233  git commit -m "Added detached head file"
+  234  clear
+  235  git log
+  236  clear
+  237  git branch
+  238  history > git_commands.txt
+  239  cat git_commands.txt 
+  240  git commit
+  241  git add git_commands.txt
+  242  git commit
+  243  clear
+  244  git status
+  245  git log
+  246  clear
+  247  cat detached-head.txt 
+  248  git status
+  249  git commit
+  250  git commit -m "Added history of commands executed in terminal"
+  251  clear
+  252  git log
+  253  git checkout master
+  254  clear
+  255  git checkout 5197ce6
+  256  git branch git-commands
+  257  git switch git-commands 
+  258  git log
+  259  clear
+  260  git switch master
+  261  git log
+  262  git branch
+  263  git switch feature/new-greetings
+  264  clear
+  265  git log
+  266  git switch master
+  267  git status
+  268  clear
+  269  git add .
+  270  git status
+  271  git commit -m "Updated greeting file for Day1 and Day2"
+  272  git log -2
+  273  clear
+  274  cat .git/refs/heads/feature/new-greetings 
+  275  git cat-file fd13bc60390f46977543bcfbd818800253b8e138 -p
+  276  git checkout feature/new-greetings 
+  277  git branch
+  278  clear
+  279  git merge master
+  280  git status
+  281  git add greeting.txt 
+  282  git status
+  283  cat greeting.txt 
+  284  git commit -m "Updated with new greetings"
+  285  clear
+  286  git switch master
+  287  cat greeting.txt 
+  288  vim greeting.txt 
+  289  git status
+  290  git commit -m "Added merge and rebase greeting message"
+  291  clear
+  292  git log
+  293  clear
+  294  git log -3
+  295  cat .git/refs/heads/feature/new-greetings 
+  296  git cat-file 88f574f2fc799db8a1e6240b640984866b1bee1a
+  297  git cat-file 88f574f2fc799db8a1e6240b640984866b1bee1a -p
+  298  git cat-file b80c861118e4a6ccf2df -p
+  299  git cat-file f84efa776fe
+  300  git cat-file f84efa776fe -p
+  301  clear
+  302  git log
+  303  git log
+  304  git status
+  305  clear
+  306  git status
+  307  cat greeting.txt 
+  308  git commit -m "Updated greetings for Merge abd rebase"
+  309  git add .
+  310  git status
+  311  git commit -m "Updated greetings for Merge abd rebase"
+  312  clear
+  313  git log
+  314  clear
+  315  git merge feature/new-greetings
+  316  git status
+  317  git add greeting.txt
+  318  git status
+  319  clear
+  320  git status
+  321  git commit
+  322  git log
+  323  clear
+  324  git log -1
+  325  cat .git/refs/heads/feature/new-greetings 
+  326  git cat-file 1b4d3c9e8b2d5f -p
+  327  git switch feature/new-greetings 
+  328  git merge master
+  329  git log
+  330  clear
+  331  git status
+  332  clear
+  333  git log
+  334  clear
+  335  git status
+  336  git add .
+  337  git status
+  338  git add .
+  339  git status
+  340  git commit -m "Added Git merge flow diagram"
+  341  git status
+  342  clear
+  343  git log
+  344  clear
+  345  git cat-file abd701ea902b7762e9 -p
+  346  clear
+  347  git cat-file f84efa776fe3a -p
+  348  clear
+  349  git log
+  350  clear
+  351  git cat-file 1b4d3c9e8b2 -p
+  352  git cat-file 88f574f2fc799 -p
+  353  git cat-file b80c861118e4a6cc -p
+  354  git cat-file fd13bc60390f46977 -p
+  355  clear
+  356  touch ng-merge-essentials.txt
+  357  vim ng-merge-essentials.txt 
+  358  git add .
+  359  git commit -m "Added merge-essentials file"
+  360  clear
+  361  git log -2
+  362  cat .git/refs/heads/master 
+  363  git switch master
+  364  clear
+  365  touch master-gm-essentials.txt
+  366  vim master-gm-essentials.txt 
+  367  cat master-gm-essentials.txt 
+  368  git add .
+  369  git commit -m "Added Recap file for git merge"
+  370  git add .
+  371  git status
+  372  git commit -m "Added new file for updated git-merge-flow"
+  373  clear
+  374  git merge feature/new-greetings 
+  375  git log -1
+  376  git status
+  377  ls
+  378  git add .
+  379  git status
+  380  clear
+  381  git commit -m "Added final git flow diagram"
+  382  ls
+  383  git checkout 1b4d3ce
+  384  git checkout 1b4d3c9
+  385  git branch master2
+  386  git switch master2
+  387  clear
+  388  git branch feature1
+  389  git branch feature2
+  390  git switch feature1
+  391  touch feature1-first-file.txt
+  392  vim feature1-first-file.txt 
+  393  git add .
+  394  git commit -m "Added feature1 first file"
+  395  touch feature1-second-file.txt 
+  396  vim feature1-second-file.txt 
+  397  git status
+  398  clear
+  399  git add .
+  400  git add .
+  401  git commit -m "Added new feature in Feature1"
+  402  clear
+  403  git log -3
+  404  git switch feature2
+  405  clear
+  406  vim feature2-first-file.txt
+  407  git add .
+  408  git commit -m "Added first file in feature2"
+  409  vim feature2-2nd-file.txt 
+  410  git add .
+  411  git commit -m "Added feature2-second-file"
+  412  git switch feature1
+  413  clear
+  414  git log -3
+  415  clear
+  416  git rebase feature2
+  417  git log -3
+  418  clear
+  419  git log -5
+  420  git cat-file c05c6
+  421  git cat-file c05c6 -p
+  422  git cat-file 5c419 -p
+  423  clear
+  424  git status
+  425  git add .
+  426  git commit -m "Added feature1-log-b4"
+  427  clear
+  428  git switch master
+  429  git remote add origin https://github.com/mohit264/git_22_07_23.git
+  430  git push -u origin master
+  431  git log -1
+  432  clear
+  433  cat .git/refs/remotes/origin/master 
+  434  vim git-push-f-understand.txt
+  435  git add .
+  436  git commit  -m "Added new file"
+  437  git push
+  438  cat .git/refs/heads/master
+  439  git push -f
+  440  clear
+  441  git add .
+  442  git status
+  443  git commit -m "Added git-push flow diagram"
+  444  git push
+  445  cat .git/refs/remotes/origin/master 
+  446  git fetch
+  447  clear
+  448  cat .git/refs/remotes/origin/master 
+  449  cat .git/refs/heads/master
+  450  git merge origin/master
+  451  git log -1
+  452  cat .git/refs/remotes/origin/master 
+  453  cat .git/refs/heads/master
+  454  git push
+  455  cat .git/refs/remotes/origin/master 
+  456  git add .
+  457  git status
+  458  git commit -m "Added git pull"
+  459  git push
+  460  clear
+  461  git gc
+  462  git status
+  463  git add .
+  464  git status
+  465  git commit -m "Added large movie file"
+  466  clear
+  467  git cat-file 08aebcc -p
+  468  git cat-file 0a1d29ea11857c14c0e2d777c385c69eeec82627 -p
+  469  git cat-file b74b5a8db4bc1fb435fd5ffa240426343c689e53
+  470  git cat-file b74b5a8db4bc1fb435fd5ffa240426343c689e53 -p
+  471  clear
+  472  git cat-file b74b5a8db4bc1fb435fd5ffa240426343c689e53 -p
+  473  irb
+  474  apt-get update
+  475  apt get update
+  476  clear
+  477  yum
+  478  clear
+  479  touch hello dosto.txt
+  480  cd /d
+  481  cd git_session_14_08
+  482  mkdir git_session_14_08
+  483  cd git_session_14_08
+  484  clear
+  485  git hash-object
+  486  git hash-object "Hello World!"
+  487  clear
+  488  echo "Mohit"
+  489  echo "Hello World!"
+  490  echo "Hello World!" | git hash-object
+  491  echo "Hello World!" | git hash-object --stdin
+  492  echo "Hello World" | git hash-object --stdin
+  493  echo "Hello World! " | git hash-object --stdin 
+  494  git hash-object "Hello"
+  495  clear
+  496  echo "Hello World!" | git hash-object --stdin -w
+  497  echo "Hello World!" | git hash-object --stdin
+  498  echo "Hello World!" | git hash-object --stdin -w
+  499  git init
+  500  echo "Hello World!" | git hash-object --stdin -w
+  501  cd /d
+  502  cd git_session_14_08/
+  503  cd .git
+  504  cd objects/
+  505  ls
+  506  cd 98
+  507  cls
+  508  clear
+  509  ls
+  510  cd ..
+  511  cd ..
+  512  cd ..
+  513  git cat-file 980a0d5f19a64b4b30a87d4206aade58726b60e3
+  514  git cat-file 980a0d5f19a64b4b30a87d4206aade58726b60e3 -t
+  515  clear
+  516  git cat-file 980a0d5f19a64b4b30a87d4206aade58726b60e3 -p
+  517  touch greeting.txt
+  518  ls
+  519  clear
+  520  vim greeting.txt
+  521  git cat-file 980a0d5f19a64b4b30a87d4206aade58726b60e3 -p
+  522  vim greeting.txt
+  523  cat greeting.txt 
+  524  git status
+  525  clear
+  526  git add greeting.txt 
+  527  git status
+  528  git commit -m "Adding Greeting.txt File"
+  529  git cat-file 4c26105 -p
+  530  clear
+  531  git cat-file  4c26105076ac71d1dac442a08c0268a81150d1b2
+  532  clear
+  533  git cat-file  4c26105076ac -p
+  534  git cat-file 665edd9c6 -p
+  535  git config user.name
+  536  git config user.email
+  537  clear
+  538  git status
+  539  git restore greeting.txt
+  540  git cat-file 4c2610 -p
+  541  clear
+  542  git cat-file 4c2610 -p
+  543  git cat-file 4c2610 -t
+  544  clear
+  545  git branch
+  546  git branch -b feature/task1
+  547  git branch feature/task1
+  548  clear
+  549  git branch
+  550  cat .git/refs/heads/master
+  551  touch greeting2.txt
+  552  vim greeting2.txt\
+  553  cat greeting2.txt 
+  554  git add .
+  555  git commit -m "Added greeting2"
+  556  cat .git/refs/heads/master
+  557  clear
+  558  cat .git/refs/heads/master
+  559  git branch
+  560  git branch feature/task1
+  561  git branch Feature/task1
+  562  clear
+  563  git switch feature/task1
+  564  git switch master
+  565  cat .git/refs/heads/master
+  566* cat .git/refs/heads/feature/task1
+  567  git tag -a mvp -m "This is my baseline of production branch"
+  568  git tag
+  569  touch security-vulnarability.txt
+  570  vim security-vulnarability.txt 
+  571  git add .
+  572* git commit -m "Developer introduced critical bug
+  573  clear
+  574* 
+  575  clear
+  576  cat .git/refs/heads/master
+  577  clear
+  578  cat .git/refs/heads/master
+  579  cat .git/refs/tags/mvp 
+  580  git cat-file 22de9bb -p
+  581  git cat-file 446e91859 -p
+  582  history > commands_16_08.txt
