@@ -1,0 +1,2 @@
+979663a added federated authentication
+  cdcaebc Added git objects diagram and detached.txt file
